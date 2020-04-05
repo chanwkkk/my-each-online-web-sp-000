@@ -10,3 +10,7 @@ def my_each(array) # put argument(s) here
   end
   array
 end
+
+my_each([1,2,3]) do |t|
+  puts t*2
+end
